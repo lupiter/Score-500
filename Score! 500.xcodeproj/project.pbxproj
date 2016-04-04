@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5154071A578DAC00B0CA8F /* Scorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5154061A578DAC00B0CA8F /* Scorer.swift */; };
 		4CA247401A5783EA00293D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2473F1A5783EA00293D25 /* AppDelegate.swift */; };
 		4CA247431A5783EA00293D25 /* Score__500.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CA247411A5783EA00293D25 /* Score__500.xcdatamodeld */; };
 		4CA247451A5783EA00293D25 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA247441A5783EA00293D25 /* MasterViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C5154061A578DAC00B0CA8F /* Scorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scorer.swift; sourceTree = "<group>"; };
 		4CA2473A1A5783EA00293D25 /* Score! 500.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score! 500.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA2473E1A5783EA00293D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA2473F1A5783EA00293D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				4CA247441A5783EA00293D25 /* MasterViewController.swift */,
 				4CA247461A5783EA00293D25 /* DetailViewController.swift */,
 				4CA247481A5783EA00293D25 /* Main.storyboard */,
+				4C5154061A578DAC00B0CA8F /* Scorer.swift */,
 				4CA2474B1A5783EA00293D25 /* Images.xcassets */,
 				4CA2474D1A5783EA00293D25 /* LaunchScreen.xib */,
 				4CA247411A5783EA00293D25 /* Score__500.xcdatamodeld */,
@@ -220,6 +223,7 @@
 			files = (
 				4CA247431A5783EA00293D25 /* Score__500.xcdatamodeld in Sources */,
 				4CA247401A5783EA00293D25 /* AppDelegate.swift in Sources */,
+				4C5154071A578DAC00B0CA8F /* Scorer.swift in Sources */,
 				4CA247451A5783EA00293D25 /* MasterViewController.swift in Sources */,
 				4CA247471A5783EA00293D25 /* DetailViewController.swift in Sources */,
 			);
@@ -415,6 +419,7 @@
 				4CA247601A5783EA00293D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CA247611A5783EA00293D25 /* Build configuration list for PBXNativeTarget "Score! 500Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				4CA247631A5783EA00293D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
